@@ -19,7 +19,6 @@ public class AbrigoServiceTeste {
     private AbrigoService abrigoService = new AbrigoService(client); //
     private HttpResponse<String> response = mock(HttpResponse.class);
     private Abrigo abrigo = new Abrigo("Teste", "61981880392", "abrigo_alura@gmail.com");
-    private Abrigo abrigoPost = new Abrigo("PetAzul", "8305006153","PetAzul");
 
     @Test
     public void deveVerificarSeDispararRequisicaoGetSeraChamado() throws IOException, InterruptedException {
